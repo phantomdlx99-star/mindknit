@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 const Header = () => {
   const { user } = useUser();
   return (
-    <div className="w-full h-auto px-6 py-4 flex justify-between items-center border-b-2 border-gray-600 bg-gray-800">
+    <div className="w-full z-50 h-auto px-6 py-4 flex justify-between items-center border-b-2 border-gray-600 bg-gray-800">
       <div className="relative w-[60%]">
         <Input
           className="peer p-3 pl-12 w-full h-auto border border-gray-500 text-xl text-gray-500 bg-[#232C3B]"

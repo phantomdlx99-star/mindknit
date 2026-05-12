@@ -157,3 +157,9 @@
     @apply bg-gray-900 text-foreground font-sans;
   }
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
